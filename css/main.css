@@ -1,0 +1,204 @@
+body{
+    font-family: sans-serif, arial;
+    background-color: #fff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #35424a;
+    font-size: 18px;
+}
+
+/*GLOBAL*/
+hr{
+    border: 2px solid  #286090;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+/*    border: 1px solid gray;*/
+}
+
+a{
+    color: #35424a;
+    text-decoration: none;
+}
+
+header{
+    background-color: #286090 ;
+    margin: 0 auto;
+    box-sizing: border-box;
+    float: none;
+    color: #fff;
+    padding: 10px;
+}
+header a{
+    color: #fff;
+}
+header h1, ul, input{
+    margin: 0;
+    padding: 0;
+}
+
+header h1{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+#contact{
+    text-align: center;
+}
+
+#contact p{
+    font-size: 30px;
+    margin: 0;
+}
+
+#contact a{
+    font-size: 20px;
+    background-color: #6cbdef;
+    color: #fff;
+    padding: 15px;
+    border: 1px solid #35424a;
+    margin-top: 0;
+    border-radius: 10px;
+}
+
+
+
+/* INDEX */
+.token{
+    max-height: 150px;
+    overflow-y: scroll;
+    width: 20%;
+    padding: 20px;
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: #286090 ;
+    margin: 0 auto;
+    box-sizing: border-box;
+    float: none;
+    font-size: 16px;
+    padding: 25px;
+    color: #ffff;
+}
+
+#span{
+    float: right;
+    color: #fff;
+    font-size: 18px;
+}
+
+#spanSec{
+    float: right;
+    color: #fff;
+    clear: right;
+    font-size: 12px;
+}
+.none{
+  text-align: center;
+}
+
+
+/* BUTTON_2 */
+.button_2 a{
+    padding: 8px;
+    background-color: #286090;
+    color: #fff;
+}
+.button_2{
+    padding: 6px;
+    background-color: #286090;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-top: 6px;
+}
+
+
+/*LOGIN*/
+
+#login{
+    margin: 0 auto;
+    text-align: center;
+}
+#login form input{
+    margin-bottom: 5px;
+    padding: 12px 8px;
+    border: 1px solid #286090; 
+     
+}
+#login form input[type=text]{
+    width: 40%;
+}
+#login form input[type=number]{
+    width: 40%;
+}
+#login form input[type=email]{
+    width: 40%;
+}
+#login form input[type=password]{
+    width: 40%;
+}
+
+#login form textarea{
+    width: 40%;
+    border: 1px solid #286090; 
+}
+#login form input[type=submit]{
+    width: 20%;
+    background-color: #286090;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+    border-top: 3px;
+     border: 1px solid #fff;
+}
+#loginx form input[type=submit]{
+    width: 8%;
+    background-color: #286090;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 0;
+    border-top: 0;
+    border: 1px solid #fff;
+    padding: 2px;
+    float: right;
+    margin: 0;
+    display: inline-block;
+}
+#loginl form input[type=submit]{
+    width: 8%;
+    background-color: #286090;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 6px;
+    border-top: 0;
+    border: 1px solid #fff;
+    padding: 8px;
+}
+#loginl form input[type=file]{
+    width: auto;
+    width: auto;
+    background-color: #286090;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 6px;
+    border-top: 0;
+    border: 1px solid #fff;
+    padding: 8px;
+}
+#loginl{
+    text-align: center;
+}
+#loginx form{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+
+
