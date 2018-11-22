@@ -8,7 +8,7 @@ include 'error/erroradmin.php';
 <div class="container">
 <div id="login">
 <form method="POST" action="token.php">
-<input type="number" name="total" placeholder="Enter Number of Codes to Generate (max = 600)"><br>
+<input type="number" name="total" placeholder="Enter Number of Codes to Generate (max = 600)" required><br>
 <input type="submit" name="token" value="Generate Codes">
 </form>
 </div>
