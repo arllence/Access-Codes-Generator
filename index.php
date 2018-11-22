@@ -22,16 +22,18 @@ $res= mysqli_query($database, $sql) or die(mysqli_error($database));
 if(mysqli_num_rows($res)>0){
   while($row = mysqli_fetch_assoc($res)){
     $token[]=$row['codes'];
-    }
+    
     $num = count($token);
-  }
+  
 echo '<div class="container token">';
 echo 'Access Tokens:<br>';
-if($num == 0){
-  echo 'No Access Codes in Database:<br>';
+if($num <1){
+  echo '<br>No Access Codes in Database:<br>'.$num;
 }else{
   for ($i=0; $i < $num; $i++) { 
     echo $i.''.'.'.'&nbsp;&nbsp;'.$token[$i].'<br>';
+  }
+    }
   }
 }
 
